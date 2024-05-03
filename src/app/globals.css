@@ -1,0 +1,24 @@
+@import url("https://fonts.googleapis.com/css2?family=Hiragino+Kaku+Gothic+ProN:wght@400&display=swap");
+body {
+  margin: 0;
+  width: 100%;
+  position: relative;
+  line-height: normal;
+  background-color: #f4f9ff;
+  font-size: var(--font-size-sm);
+  color: var(--color-darkslategray);
+  font-family: var(--font-hiragino-kaku-gothic-pron);
+  overflow: hidden;
+  text-align: left;
+}
+:root {
+  /* fonts */
+  --font-hiragino-kaku-gothic-pron: "Hiragino Kaku Gothic ProN";
+
+  /* font sizes */
+  --font-size-sm: 0.875rem;
+  --font-size-lg: 1.125rem;
+
+  /* Colors */
+  --color-darkslategray: #333;
+}
