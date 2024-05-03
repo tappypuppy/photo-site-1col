@@ -14,7 +14,7 @@
   font-family: var(--font-hiragino-kaku-gothic-pron);
 }
 
-@media screen and (min-width: 1000px) {
+@media screen and (min-width: 1024px) {
   .header_box {
     width: 1000px;
   }
