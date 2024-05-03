@@ -1,4 +1,4 @@
-import Image from "next/image";
+import styles from "./main.module.css";
 import Header from "../components/Header/Header";
 import Hero from "../components/Hero/Hero";
 import Index from "../components/Index/Index";
@@ -9,12 +9,12 @@ export default function Home() {
   return (
     <div>
       <Header />
-      <main>
+      <main className={styles.main}>
         <Hero />
         <Index />
         <Detail />
-        <Footer />
       </main>
+      <Footer />
     </div>
   );
 }

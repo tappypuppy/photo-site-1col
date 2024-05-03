@@ -82,26 +82,34 @@
   text-underline-offset: 0.3rem;
 }
 
+.content_img_sp{
+    display: none;
+}
+
 @media screen and (max-width: 1024px) {
   .detail {
     width: 100%;
   }
 
   .inner {
-    width: 80%;
-    /* align-items: center; */
+    width: 60%;
   }
 
   .contents {
     flex-direction: column;
     width: 50%;
     row-gap: 25px;
-    /* align-items: center; */
+
   }
 
-  .content_img {
-    width: 100%;
+  .content_img_sp {
+    display: block;
+    width: 150%;
     height: auto;
+  }
+
+  .content_img_pc {
+    display: none;
   }
 
   .content_texts {

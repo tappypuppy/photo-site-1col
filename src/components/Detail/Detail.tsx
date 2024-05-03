@@ -9,12 +9,19 @@ function Detail() {
         <h2 className={styles.title}>DETAIL</h2>
         <div className={styles.contents}>
           <Image
-            className={styles.content_img}
-            src="/detail_1.png"
+            className={styles.content_img_pc}
+            src="/detail_img_pc.png"
             alt="detail"
             width={270}
             height={270}
           />
+          <Image
+            className={styles.content_img_sp}
+            src="/detail_img_sp.png"
+            alt="detail"
+            width={295}
+            height={295}
+            />
           <div className={styles.content_texts}>
             <h3 className={styles.item_title}>タイトルタイトルタイトル</h3>
             <dl className={styles.content_data}>
