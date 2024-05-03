@@ -1,0 +1,77 @@
+.detail {
+  width: 600px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+}
+
+.contents {
+  display: flex;
+  justify-content: space-between;
+  column-gap: 60px;
+}
+
+.content_texts {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+}
+
+.title {
+  font-size: 1.125rem;
+  font-weight: bold;
+  padding: 0.25rem 0;
+  font-family: var(--font-hiragino-kaku-gothic-pron);
+  color: #333;
+  text-align: left;
+}
+
+.item_title {
+  font-size: 1.125rem;
+  font-weight: bold;
+  padding: 0.25rem 0;
+  font-family: var(--font-hiragino-kaku-gothic-pron);
+  color: #333;
+  text-align: left;
+}
+
+.content_data {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  border-bottom: 1px solid #DEDEDE;
+  border-top: 1px solid #DEDEDE;
+  padding: 16px 0 16px;
+}
+.content_data dt {
+  width: 25%;
+  font-size: 0.875rem;
+  font-family: var(--font-hiragino-kaku-gothic-pron);
+  color: #333;
+  padding: 0.22rem 0;
+}
+
+.content_data dd {
+  width: 75%;
+  font-size: 0.875rem;
+  font-family: var(--font-hiragino-kaku-gothic-pron);
+  color: #333;
+  padding: 0.22rem 0;
+}
+
+.content_texts p {
+    font-size: 0.875rem;
+    font-family: var(--font-hiragino-kaku-gothic-pron);
+    color: #333;
+    padding: 0.22rem 0;
+}
+
+.content_link {
+    font-size: 0.875rem;
+    font-family: var(--font-hiragino-kaku-gothic-pron);
+    color: #333;
+    padding: 0.22rem 0;
+    text-underline-offset: 0.3rem;
+}
