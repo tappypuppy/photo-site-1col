@@ -89,12 +89,12 @@
 @media screen and (max-width: 1024px) {
   .detail {
     width: 100%;
+    padding: 30px 0;
   }
 
   .inner {
     width: 100%;
     max-width: 520px;
-    /* margin: 0 40px; */
   }
 
   .contents {
