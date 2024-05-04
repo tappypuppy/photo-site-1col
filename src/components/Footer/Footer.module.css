@@ -1,0 +1,25 @@
+.footer_box {
+  width: 100%;
+  padding: 15px;
+  box-sizing: border-box;
+}
+
+.inner {
+  width: 100%;
+  max-width: 520px;
+  margin: 30px auto;
+}
+
+.inner p {
+  font-size: 0.625rem;
+  font-family: var(--font-hiragino-kaku-gothic-pron);
+  color: #333;
+  padding: 0.22rem 0;
+}
+
+@media screen and (min-width: 1024px) {
+  .inner {
+    width: 100%;
+    max-width: 600px;
+  }
+}
