@@ -21,7 +21,7 @@ function Detail() {
             alt="detail"
             width={295}
             height={295}
-            />
+          />
           <div className={styles.content_texts}>
             <h3 className={styles.item_title}>タイトルタイトルタイトル</h3>
             <dl className={styles.content_data}>

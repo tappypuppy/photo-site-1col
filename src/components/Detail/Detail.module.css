@@ -82,8 +82,8 @@
   text-underline-offset: 0.3rem;
 }
 
-.content_img_sp{
-    display: none;
+.content_img_sp {
+  display: none;
 }
 
 @media screen and (max-width: 1024px) {
@@ -92,19 +92,22 @@
   }
 
   .inner {
-    width: 60%;
+    width: 100%;
+    max-width: 520px;
+    /* margin: 0 40px; */
   }
 
   .contents {
     flex-direction: column;
-    width: 50%;
+    width: 100%;
     row-gap: 25px;
-
   }
 
   .content_img_sp {
     display: block;
-    width: 150%;
+    width: 100%;
+    max-width: 520px;
+
     height: auto;
   }
 
